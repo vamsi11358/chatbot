@@ -1,10 +1,10 @@
 "use client"
 
 import { Fragment, useState ,useEffect} from 'react'
-import { Dialog, Transition } from '@headlessui/react'
-import Image from 'next/image'
+/* import { Dialog, Transition } from '@headlessui/react'
+import Image from 'next/image' */
 import data from '../../../public/data.json'
-import image from '../public/chat image.png'
+// import image from '../public/chat image.png'
 
 export default function Component() {
   const [open, setOpen] = useState(true);
